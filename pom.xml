@@ -4,7 +4,7 @@
 
 	<groupId>com.github.theboeh</groupId>
 	<artifactId>mlquery</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>mlquery</name>
@@ -42,7 +42,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.github.theboeh.mlquery.MlQuery</mainClass>
+							<mainClass>com.github.theboeh.mlquery.MLQuery</mainClass>
 						</manifest>
 					</archive>
 					<descriptorRefs>
