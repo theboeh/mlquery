@@ -9,7 +9,7 @@ MLQuery takes a script from the standard input and writes the result to the stan
 An example invocation may look like this:
 
 ```bash
-echo 'xdmp:host-name()'|java -jar mlquery -u <username>:<password> -s <server>:<port>
+echo 'xdmp:host-name()'|java -jar mlquery.jar -u <username>:<password> -s <server>:<port>
 ```
 
 The output of this line would be the hostname of the MarkLogic server it is being run against
