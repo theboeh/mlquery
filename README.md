@@ -13,3 +13,7 @@ echo 'xdmp:host-name()'|java -jar mlquery.jar -u <username>:<password> -s <serve
 ```
 
 The output of this line would be the hostname of the MarkLogic server it is being run against
+
+## Download
+
+You can download a compiled version of MLQuery [here](https://github.com/theboeh/mlquery/blob/master/bin/mlquery.jar?raw=true).
