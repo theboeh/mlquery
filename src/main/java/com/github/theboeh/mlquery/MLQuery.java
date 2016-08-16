@@ -2,6 +2,7 @@ package com.github.theboeh.mlquery;
 
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.net.URLEncoder;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
@@ -44,7 +45,10 @@ public class MLQuery {
 		}
 
 		String server = line.getOptionValue("s");
+		//System.out.println("server: " + server);
 		String user = line.getOptionValue("u");
+		//System.out.println("user: " + user);
+		user = URLEncoder.encode(user);
 
 		StringBuilder queryBuilder = new StringBuilder();
 		Scanner scanner = new Scanner(System.in);
